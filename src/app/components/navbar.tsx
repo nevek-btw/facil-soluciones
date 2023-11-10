@@ -20,7 +20,11 @@ export function Navbar({ links, ...props }: NavbarProps) {
       <div className="max-w-8xl mx-auto">
         <div className="py-4 border-b lg:px-8 lg:border-0 border-slate-300/10 mx-4 lg:mx-0">
           <div className="relative flex items-center">
-            <Link className="mr-3 flex-none w-[2.0625rem] overflow-hidden md:w-auto" href="/">
+            <Link 
+              className="mr-3 flex-none w-[2.0625rem] overflow-hidden md:w-auto" 
+              href="/"
+              aria-label="Inicio"
+            >
               <Logo className="text-white w-auto h-7" />
             </Link>
 
@@ -30,7 +34,11 @@ export function Navbar({ links, ...props }: NavbarProps) {
               </nav>
 
               <div className="flex items-center border-l ml-6 pl-6 border-slate-800">
-                <a href="" className="block text-slate-400 hover:text-slate-300">
+                <a 
+                  href="" 
+                  className="block text-white hover:text-[#a4fe00]"
+                  aria-label="Hacer un llamada"
+                >
                   <Phone className="w-5 h-5" />
                 </a>
               </div>

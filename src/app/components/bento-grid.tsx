@@ -4,7 +4,7 @@ export function BentoGrid() {
       <div className="flex flex-col items-center justify-start">
         <div className="flex flex-col items-center justify-start gap-4 md:flex-row md:items-baseline pb-3">
           <h2 className="bg-gradient-to-b from-white to-[#adadad] bg-clip-text text-[32px] font-bold tracking-[-0.04em] text-transparent">¿Qué es Facil Solcuiones?</h2>
-          <p className="text-center text-[20px] leading-[1.5] tracking-[-0.01em] text-[#666]">Todo lo que necesitas para tu negocio</p>
+          <p className="text-center text-[20px] leading-[1.5] tracking-[-0.01em] text-[#888]">Todo lo que necesitas para tu negocio</p>
         </div>
       </div>
 
@@ -12,7 +12,7 @@ export function BentoGrid() {
         {[...Array(7)].map((_, i) => (
         <div
           key={i}
-          className={`row-span-1 rounded-xl border-2 border-slate-400/10 bg-neutral-100 p-4 dark:bg-neutral-900 ${
+          className={`row-span-1 rounded-xl border-2 border-slate-400/10 bg-neutral-900 ${
             i === 3 || i === 6 ? "col-span-2" : ""
           }`}
           ></div>
