@@ -20,10 +20,10 @@ export function Steps() {
             <Image className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="/images/1.svg" alt="1" width={80} height={120} />
             <div className="absolute bottom-[-40px] left-0 right-0 flex flex-col items-center space-y-2 justify-center p-2">
               <span className="text-[1.875rem] leading-[2.25rem] font-bold ">
-                Lorem
+                Explora
               </span>
               <p className="space-y-2 text-base text-white/50">
-                Submit as many requests as you want. Get your first design concept in 24 hours.
+                Descubre opciones financieras, inmobiliarias y de construcción para un viaje hacia el éxito sin complicaciones.
               </p>
             </div>
           </div>
@@ -33,10 +33,10 @@ export function Steps() {
             <Image className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="images/2.svg" alt="2" width={80} height={120} />
             <div className="absolute bottom-[-40px] left-0 right-0 flex flex-col items-center space-y-2 justify-center p-2">
               <span className="text-[1.875rem] leading-[2.25rem] font-bold ">
-                Lorem
+                Decide
               </span>
               <p className="space-y-2 text-base text-white/50">
-                Submit as many requests as you want. Get your first design concept in 24 hours.
+                Toma decisiones informadas con soluciones integrales en finanzas, bienes raíces y construcción.
               </p>
             </div>
           </div>
@@ -46,10 +46,10 @@ export function Steps() {
             <Image className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="images/3.svg" alt="3" width={80} height={120} />
             <div className="absolute bottom-[-40px] left-0 right-0 flex flex-col items-center space-y-2 justify-center p-2">
               <span className="text-[1.875rem] leading-[2.25rem] font-bold ">
-                Lorem
+                Actúa
               </span>
               <p className="space-y-2 text-base text-white/50">
-                Submit as many requests as you want. Get your first design concept in 24 hours.
+                Convierte visiones en realidad. Implementa soluciones para avanzar en proyectos financieros, inmobiliarios y de construcción.
               </p>
             </div>
           </div>

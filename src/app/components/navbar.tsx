@@ -35,7 +35,7 @@ export function Navbar({ links, ...props }: NavbarProps) {
 
               <div className="flex items-center border-l ml-6 pl-6 border-slate-800">
                 <a 
-                  href="" 
+                  href="tel:+1809-586-0708" 
                   className="block text-white hover:text-[#a4fe00]"
                   aria-label="Hacer un llamada"
                 >
