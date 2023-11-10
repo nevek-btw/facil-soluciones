@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export function Steps() {
   return (
     <section className="container mx-auto my-0 px-6 py-6 md:py-12 lg:py-20">
@@ -15,7 +17,7 @@ export function Steps() {
 
         <div className="pt-10 lg:pt-20 flex flex-col space-y-16 lg:space-y-0 lg:flex-row items-center justify-center space-x-0">
           <div className="relative flex flex-col items-center text-center  w-[300px] xl:w-[400px]">
-            <img className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="images/1.svg" alt="" />
+            <Image className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="/images/1.svg" alt="1" width={80} height={120} />
             <div className="absolute bottom-[-40px] left-0 right-0 flex flex-col items-center space-y-2 justify-center p-2">
               <span className="text-[1.875rem] leading-[2.25rem] font-bold ">
                 Lorem
@@ -25,10 +27,10 @@ export function Steps() {
               </p>
             </div>
           </div>
-          <img className="rotate-90 lg:rotate-0" src="images/arrow-scribble.svg" alt="" />
+          <Image className="rotate-90 lg:rotate-0" src="/images/arrow-scribble.svg" alt="arrow" width={50} height={50} />
           <div className="relative flex flex-col items-center text-center  w-[300px] xl:w-[400px]">
 
-            <img className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="images/2.svg" alt="" />
+            <Image className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="images/2.svg" alt="2" width={80} height={120} />
             <div className="absolute bottom-[-40px] left-0 right-0 flex flex-col items-center space-y-2 justify-center p-2">
               <span className="text-[1.875rem] leading-[2.25rem] font-bold ">
                 Lorem
@@ -38,10 +40,10 @@ export function Steps() {
               </p>
             </div>
           </div>
-          <img className="rotate-90 lg:rotate-0" src="images/arrow-scribble.svg" alt="" />
+          <Image className="rotate-90 lg:rotate-0" src="/images/arrow-scribble.svg" alt="arrow" width={50} height={50} />
           <div className="relative flex flex-col items-center text-center  w-[300px] xl:w-[400px]">
 
-            <img className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="images/3.svg" alt="" />
+            <Image className="w-[80px] h-[120px] lg:w-[100px] lg:h-[140px]" src="images/3.svg" alt="3" width={80} height={120} />
             <div className="absolute bottom-[-40px] left-0 right-0 flex flex-col items-center space-y-2 justify-center p-2">
               <span className="text-[1.875rem] leading-[2.25rem] font-bold ">
                 Lorem
