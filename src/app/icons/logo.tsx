@@ -13,7 +13,7 @@ export function Logo({ className, ...props }: LogoProps) {
       width="150px"
       height="28px"
       viewBox="0 0 150 28"
-      enable-background="new 0 0 150 28"
+      enableBackground="new 0 0 150 28"
       xmlSpace="preserve"
       className={className}
       {...props}

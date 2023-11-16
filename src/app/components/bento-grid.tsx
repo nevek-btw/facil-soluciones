@@ -2,8 +2,8 @@ export function BentoGrid() {
   return (
     <section className="container mx-auto my-0 px-6 py-6 md:py-12 lg:py-20">
       <div className="flex flex-col items-center justify-start">
-        <div className="flex flex-col items-center justify-start gap-4 md:flex-row md:items-baseline pb-3">
-          <h2 className="bg-gradient-to-b from-white to-[#adadad] bg-clip-text text-[32px] font-bold tracking-[-0.04em] text-transparent">¿Qué es Facil Solcuiones?</h2>
+        <div className="flex flex-col items-center justify-start gap-4 lg:flex-row md:items-baseline pb-3">
+          <h2 className="bg-gradient-to-b from-white to-[#adadad] bg-clip-text text-[32px] font-bold tracking-[-0.04em] text-transparent text-center">¿Qué es Facil Solcuiones?</h2>
           <p className="text-center text-[20px] leading-[1.5] tracking-[-0.01em] text-[#888]">Todo lo que necesitas para tu negocio</p>
         </div>
       </div>

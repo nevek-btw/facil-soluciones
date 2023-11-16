@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Facil Soluciones - Zapata Gómez',
-  description: 'Transforma tus metas en realidad con nuestra empresa líder en servicios financieros, inmobiliarios y de construcción. Descubre soluciones integrales para el éxito.',
+  description: 'La solución cerca de ti.',
 }
 
 export default function RootLayout({

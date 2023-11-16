@@ -1,9 +1,5 @@
-"use client"
-
 import Link from "next/link"
 import { FCMenuLink } from "@/app/lib/definitions"
-import { cn } from "@/app/lib/utils"
-import { useSelectedLayoutSegment } from "next/navigation"
 import { Logo } from "../icons/logo"
 import { Phone } from "../icons/phone"
 
@@ -21,7 +17,7 @@ export function Navbar({ links, ...props }: NavbarProps) {
         <div className="py-4 border-b lg:px-8 lg:border-0 border-slate-300/10 mx-4 lg:mx-0">
           <div className="relative flex items-center">
             <Link 
-              className="mr-3 flex-none w-[2.0625rem] overflow-hidden md:w-auto" 
+              className="mr-3 flex-none overflow-hidden md:w-auto" 
               href="/"
               aria-label="Inicio"
             >
@@ -36,7 +32,7 @@ export function Navbar({ links, ...props }: NavbarProps) {
               <div className="flex items-center border-l ml-6 pl-6 border-slate-800">
                 <a 
                   href="tel:+1809-586-0708" 
-                  className="block text-white hover:text-[#a4fe00]"
+                  className="block text-white hover:text-green-500"
                   aria-label="Hacer un llamada"
                 >
                   <Phone className="w-5 h-5" />
@@ -63,16 +59,11 @@ function Menu({ items }: { items: FCMenuLink[] }) {
 }
 
 function MenuLink({ link }: { link: FCMenuLink }) {
-  const segment = useSelectedLayoutSegment()
-
   return (
     <li>
       <Link 
         href={link.url}
-        className="hover:text-[#a4fe00]"
-        /* className={cn(`text-sm font-medium text-gray-900 transition-colors duration-200 hover:text-gray-700 ${
-          link.url === `/${segment}` ? "text-gray-900" : "text-gray-500"
-        }`)} */
+        className="hover:text-green-500 text-sm font-semibold tracking-wider transition-colors duration-200"
       >
         {link.title}
       </Link>

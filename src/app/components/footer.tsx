@@ -2,7 +2,6 @@ import Link from "next/link"
 import { Facebook } from "../icons/facebook"
 import { Linkedin } from "../icons/linkedin"
 import { Alt } from "../icons/alt"
-import Image from "next/image"
 import { Logo } from "../icons/logo"
 
 export function Footer() {
